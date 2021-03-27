@@ -16,7 +16,7 @@ const validator = function (value) {
     const input = language.toLowerCase()
     if (input == "nodejs") {
         exec("npm init -y")
-        exec('npm set init.author.name "ChangeMe"')
+        exec('npm set init.author.name "Ssmidge"')
     }
 
 })();
